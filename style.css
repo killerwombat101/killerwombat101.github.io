@@ -3,3 +3,6 @@ h1 {
   font-family: serif;
   font-size: 20px;
 }
+a {
+  border: 2px solid black;
+  
