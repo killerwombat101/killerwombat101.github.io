@@ -1,8 +1,10 @@
 h1 {
-  color: Violet;
+  color: violet;
   font-family: serif;
   font-size: 20px;
+  background-color: violet;
 }
 a {
   border: 2px solid black;
+}
   
