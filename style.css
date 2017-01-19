@@ -1,12 +1,23 @@
-h1 {
-  color: violet;
-  font-family: serif;
-  font-size: 20px;
-  background-color: violet;
+* {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
-a {
-  border: 2px solid black;
+h1 {
+    color: white;
+    font-family: serif;
+    font-size: 40px;
 }
 .img-circle {
-  border-radius: 50%;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 100px;
+}
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #333333;
+    border: 1px solid white;
+    border-radius: 30px;
 }
