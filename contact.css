@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #eaeaea;
+}
+h1 {
+  font-family: roboto;
+  color: #636363;
+  font-size: 60px;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#steam {
+  background-color: grey;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px;
+}
+#inner {
+  display: block;
+  margin: auto;
+  margin-top: -40px !important;
+  padding-top: 0 !important;
+  background-color: lightgrey;
+  height: 100vh;
+  width: 70%;
+  top: 0;
+}
+#back {
+  font-size: 40px;
+  font-family: roboto;
+  color: #636363;
+  text-decoration: none;
+}
+#twitter {
+  width: 150px;
+}
+.sliding-middle-out {
+  display:inline-block;
+  position:relative;
+  padding-bottom:3px;
+}
+.sliding-middle-out:after {
+  content:'';display:block;
+  margin:auto;
+  height:3px;width:0px;
+  background:transparent;
+  transition:width .5s ease,background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+  width:100%;
+  background:#3498db;
+}
