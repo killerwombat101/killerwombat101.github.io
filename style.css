@@ -18,7 +18,8 @@ h3 {
   font-size: 30px;
   color: grey;
   width: 35%;
-  text-align: center;
+  text-align: center !important;
+  display: block;
 }
 td {
   font-size: 30px;
